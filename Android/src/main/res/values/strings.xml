@@ -1,0 +1,10 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<string name="app_name">Project</string>
+	
+	<!-- AndroidActivity -->
+	<string name="android_activity_title"></string>
+	<string name="android_activity_toast_text_view_text">TOAST</string>
+	<string name="android_activity_rectangle_button_text">BUTTON</string>
+</resources>

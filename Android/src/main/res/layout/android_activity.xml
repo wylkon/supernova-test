@@ -1,0 +1,77 @@
+<android.support.constraint.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/android_constraint_layout"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/android_activity_android_constraint_layout_background_color">
+
+	<android.support.constraint.ConstraintLayout
+		android:id="@+id/view_constraint_layout"
+		android:layout_width="@dimen/android_activity_view_constraint_layout_width"
+		android:layout_height="@dimen/android_activity_view_constraint_layout_height"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="61dp"
+		tools:layout_editor_absoluteY="295dp">
+	
+		<View
+			android:id="@+id/rectangle_constraint_layout"
+			android:layout_width="@dimen/android_activity_rectangle_constraint_layout_width"
+			android:layout_height="@dimen/android_activity_rectangle_constraint_layout_height"
+			android:background="@color/android_activity_rectangle_constraint_layout_background_color"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintLeft_toLeftOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="0dp"
+			tools:layout_editor_absoluteY="0dp"/>
+	
+		<TextView
+			android:id="@+id/toast_text_view"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginEnd="@dimen/android_activity_toast_text_view_margin_end"
+			android:gravity="center"
+			android:text="@string/android_activity_toast_text_view_text"
+			android:textColor="@color/android_activity_toast_text_view_text_color"
+			android:textSize="@dimen/android_activity_toast_text_view_text_size"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintRight_toRightOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			tools:layout_editor_absoluteX="90dp"
+			tools:layout_editor_absoluteY="24dp"/>
+	</android.support.constraint.ConstraintLayout>
+
+	<Button
+		android:id="@+id/rectangle_button"
+		android:layout_width="@dimen/android_activity_rectangle_button_width"
+		android:layout_height="@dimen/android_activity_rectangle_button_height"
+		android:layout_marginBottom="@dimen/android_activity_rectangle_button_margin_bottom"
+		android:background="@drawable/android_activity_rectangle_button_ripple"
+		android:gravity="start"
+		android:text="@string/android_activity_rectangle_button_text"
+		android:textColor="@color/android_activity_rectangle_button_text_color"
+		android:textSize="@dimen/android_activity_rectangle_button_text_size"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		tools:layout_editor_absoluteX="61dp"
+		tools:layout_editor_absoluteY="550dp"/>
+
+	<ImageView
+		android:id="@+id/operation_image_view"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="@dimen/android_activity_operation_image_view_margin_top"
+		android:scaleType="center"
+		android:src="@drawable/operation"
+		app:layout_constraintLeft_toLeftOf="parent"
+		app:layout_constraintRight_toRightOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		tools:layout_editor_absoluteX="124dp"
+		tools:layout_editor_absoluteY="82dp"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+	
+	<!-- Project level resources -->
+	<dimen name="material_spacing_small">8dp</dimen>
+	<dimen name="material_spacing_medium">16dp</dimen>
+	<dimen name="material_spacing_large">24dp</dimen>
+	<dimen name="material_bottom_sheet_item_size">56dp</dimen>
+	<dimen name="material_bottom_sheet_item_text_size">16sp</dimen>
+	
+	<!-- AndroidActivity -->
+	<dimen name="android_activity_toast_text_view_text_size">23sp</dimen>
+	<dimen name="android_activity_rectangle_button_border_size">5dp</dimen>
+	<dimen name="android_activity_rectangle_button_text_size">23sp</dimen>
+	<dimen name="android_activity_toast_text_view_margin_end">81dp</dimen>
+	<dimen name="android_activity_rectangle_constraint_layout_width">244dp</dimen>
+	<dimen name="android_activity_rectangle_constraint_layout_height">74dp</dimen>
+	<dimen name="android_activity_view_constraint_layout_width">244dp</dimen>
+	<dimen name="android_activity_view_constraint_layout_height">74dp</dimen>
+	<dimen name="android_activity_rectangle_button_width">244dp</dimen>
+	<dimen name="android_activity_rectangle_button_height">74dp</dimen>
+	<dimen name="android_activity_rectangle_button_margin_bottom">38dp</dimen>
+	<dimen name="android_activity_operation_image_view_margin_top">79dp</dimen>
+</resources>

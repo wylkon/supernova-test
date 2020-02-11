@@ -1,0 +1,100 @@
+<document systemVersion="15B42" targetRuntime="iOS.CocoaTouch" type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" useTraitCollections="YES" useAutolayout="YES" propertyAccessControl="none" version="3.0" toolsVersion="13771" initialViewController="emW-K8-2jP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen" />
+    </device>
+    <dependencies>
+        <plugIn version="14283.9" identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" />
+    </dependencies>
+    <scenes>
+        <scene sceneID="MKW-j2-DZl">
+            <objects>
+                <viewController id="emW-K8-2jP" sceneMemberID="viewController" customModule="iOS_Development" customModuleProvider="target" customClass="AndroidViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="peR-rJ-2Rz" />
+                        <viewControllerLayoutGuide type="bottom" id="DfX-yV-5Pm" />
+                    </layoutGuides>
+                    <view id="JrB-po-xON" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="YES" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="view">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="1.0" green="1.0" blue="1.0" alpha="1.0" />
+                        <rect key="frame" x="0" y="0" width="375" height="667" />
+                        <constraints>
+                            <constraint firstItem="zdR-dh-dNI" firstAttribute="centerX" secondItem="JrB-po-xON" secondAttribute="centerX" constant="0" id="Qqm-Vc-xS4" />
+                            <constraint firstItem="zdR-dh-dNI" firstAttribute="centerY" secondItem="JrB-po-xON" secondAttribute="centerY" constant="0" id="Ap3-lP-z4o" />
+                            <constraint firstItem="ef6-Rf-Ws8" firstAttribute="centerX" secondItem="JrB-po-xON" secondAttribute="centerX" constant="0" id="GRc-Yn-BNR" />
+                            <constraint firstItem="JrB-po-xON" firstAttribute="bottom" secondItem="ef6-Rf-Ws8" secondAttribute="bottom" constant="40" id="Dd2-Rg-aQx" />
+                            <constraint firstItem="Bru-mf-bXz" firstAttribute="centerX" secondItem="JrB-po-xON" secondAttribute="centerX" constant="0" id="NYi-ZX-VTi" />
+                            <constraint firstItem="Bru-mf-bXz" firstAttribute="top" secondItem="JrB-po-xON" secondAttribute="top" constant="82" id="3xC-wW-hkW" />
+                        </constraints>
+                        <subviews>
+                            <view id="zdR-dh-dNI" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="61" y="295" width="254" height="77" />
+                                <constraints>
+                                    <constraint firstItem="zdR-dh-dNI" firstAttribute="width" constant="254" id="PqA-0K-rmx" />
+                                    <constraint firstItem="zdR-dh-dNI" firstAttribute="height" constant="77" id="Elt-bS-gnO" />
+                                    <constraint firstItem="47C-OQ-iXT" firstAttribute="centerX" secondItem="zdR-dh-dNI" secondAttribute="centerX" constant="0" id="nsG-2b-IwY" />
+                                    <constraint firstItem="47C-OQ-iXT" firstAttribute="centerY" secondItem="zdR-dh-dNI" secondAttribute="centerY" constant="0" id="3BW-Oj-UZ2" />
+                                    <constraint firstItem="zdR-dh-dNI" firstAttribute="trailing" secondItem="oTm-02-WwD" secondAttribute="trailing" constant="84" id="AFx-05-DIg" />
+                                    <constraint firstItem="oTm-02-WwD" firstAttribute="centerY" secondItem="zdR-dh-dNI" secondAttribute="centerY" constant="0" id="6PT-Xv-Of7" />
+                                </constraints>
+                                <subviews>
+                                    <view id="47C-OQ-iXT" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" key="view">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.7523818612098694" green="1.0" blue="0.8549112677574158" alpha="1.0" />
+                                        <rect key="frame" x="0" y="0" width="254" height="77" />
+                                        <constraints>
+                                            <constraint firstItem="47C-OQ-iXT" firstAttribute="width" constant="254" id="mQe-4D-Goy" />
+                                            <constraint firstItem="47C-OQ-iXT" firstAttribute="height" constant="77" id="n5c-4X-8d3" />
+                                        </constraints>
+                                        <subviews />
+                                    </view>
+                                    <label id="oTm-02-WwD" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" numberOfLines="0" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" adjustsFontSizeToFit="NO" baselineAdjustments="alignBaselines" textAlignment="center">
+                                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                        <rect key="frame" x="90" y="24" width="80" height="29" />
+                                        <constraints />
+                                        <string key="text">TOAST</string>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="24" />
+                                        <color key="textColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                                    </label>
+                                </subviews>
+                            </view>
+                            <button id="ef6-Rf-Ws8" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" customClass="SupernovaButton" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.7719655632972717" green="0.7719655632972717" blue="0.7719655632972717" alpha="1.0" />
+                                <rect key="frame" x="61" y="550" width="254" height="77" />
+                                <constraints>
+                                    <constraint firstItem="ef6-Rf-Ws8" firstAttribute="width" constant="254" id="e7h-5k-Rgj" />
+                                    <constraint firstItem="ef6-Rf-Ws8" firstAttribute="height" constant="77" id="SPU-IT-d5h" />
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24" />
+                                <state title="BUTTON" key="normal">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="1.0" />
+                                </state>
+                                <connections>
+                                    <action selector="onRectanglePressed:" destination="emW-K8-2jP" eventType="touchUpInside" id="U4n-tq-Ypa" />
+                                </connections>
+                            </button>
+                            <imageView id="Bru-mf-bXz" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" customModule="iOS_Development" customModuleProvider="target" horizontalHuggingPriority="251" verticalHuggingPriority="251" userInteractionEnabled="NO" contentMode="center" image="operation">
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                                <rect key="frame" x="124" y="82" width="128" height="128" />
+                                <constraints />
+                            </imageView>
+                        </subviews>
+                    </view>
+                    <tabBarItem id="0KI-F0-AMK" fixedFrame="NO" translatesAutoresizingMaskIntoConstraints="NO" alpha="1.0" hidden="NO" contextMode="scaleToFill" userLabel="" opaque="NO" key="tabBarItem">
+                        <color key="backgroundColor" colorSpace="calibratedRGB" red="0.0" green="0.0" blue="0.0" alpha="0.0" />
+                        <rect key="frame" x="0" y="0" width="0" height="0" />
+                        <constraints />
+                    </tabBarItem>
+                    <connections>
+                        <outlet property="viewView" destination="zdR-dh-dNI" id="lwT-HU-TzO" />
+                        <outlet property="rectangleButton" destination="ef6-Rf-Ws8" id="xTV-gT-nsH" />
+                        <outlet property="operationImageView" destination="Bru-mf-bXz" id="c38-lG-Aum" />
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAa-p8-iMz" userLabel="First Responder" sceneMemberID="firstResponder" />
+            </objects>
+            <point key="canvasLocation" x="0" y="0" />
+        </scene>
+    </scenes>
+    <resources>
+        <image name="operation" width="128" height="128" />
+    </resources>
+</document>

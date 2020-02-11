@@ -1,0 +1,8 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<stroke
+		android:color="@color/android_activity_rectangle_button_border_color"
+		android:width="@dimen/android_activity_rectangle_button_border_size"/>
+
+	<solid android:color="@color/android_activity_rectangle_button_background_color"/>
+</shape>
